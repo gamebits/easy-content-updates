@@ -2,6 +2,8 @@
 
 > Your site has been running on auto-pilot for years. Its theme has been retired, the site looks dated, and it’s impossible to navigate on mobile. You want to switch the theme... but new themes use excerpts, featured images, and blocks, none of which your old posts do. Never fear — with the tools and strategies outlined in this talk, you can quickly and easily give your old content everything it needs to look modern and slick. ([WordCamp Rochester 2023](https://rochester.wordcamp.org/2023/session/an-easy-update-for-old-content/)\)
 
+The contents of this repo are provided by me as an individual, not as a representative of Automattic. No guarantees, express or implied, are provided as to the use and consequences of this code. As always, take a backup first.
+
 ## Featured Images
 Featured images were introduced in [WordPress 2.9](https://wordpress.org/news/2009/12/wordpress-2-9/), released December 2009. Many themes display the featured image at the top of the post, in category archives, on the homepage, in SEO snippets, and elsewhere. If you do not have a featured image assigned to each post, the absence can be glaring.
 
