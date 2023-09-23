@@ -1,0 +1,14 @@
+{
+  "generator": "Code Snippets v3.5.0",
+  "date_created": "2023-09-23 22:08",
+  "snippets": [
+    {
+      "id": 16,
+      "name": "SEO to Excerpt",
+      "code": "\n// Allow WP-CLI to modify database posts\ndefine('WP_USE_THEMES', false);\nrequire_once('wp-load.php');\n\nfunction seo_excerpt_wp_cli_run()\n{   \n    $args = array( \n        'post_type'   => 'post',\n        'numberposts' => -1,\n        'post_status' => 'publish',\n    );\n\n    $posts = get_posts( $args );\n\n    foreach ( $posts as $post )\n    {\n        if( '' == $post->post_excerpt )\n        {\n            // First, try to get Yoast SEO Description\n            $seo_excerpt = get_post_meta( $post->ID, '_yoast_wpseo_metadesc' ,true);\n            \n            if( '' == $seo_excerpt ) {\n                // If Yoast SEO description not found, try getting AIOSEOP Description\n                $seo_excerpt = get_post_meta( $post->ID, '_aioseop_description' ,true);\n            }\n\n            if( '' != $seo_excerpt ) {\n                $po = array();\n                $po = get_post( $post->ID, 'ARRAY_A' );\n                $po['post_excerpt'] = $seo_excerpt;\n                wp_update_post($po);\n            }\n        }\n    }   \n}\n\n// Run the dedicated function\nseo_excerpt_wp_cli_run();",
+      "scope": "single-use",
+      "modified": "2023-09-23 22:08:07",
+      "revision": "2"
+    }
+  ]
+}
