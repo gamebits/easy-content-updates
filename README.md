@@ -11,7 +11,7 @@ But if there are images attached to your posts, this script will find the first 
 
 Choose only one of the following three ways to run this script:
 
-* `fix-featured-images.code-snippets.json`: Import this file into [WPCode](https://wordpress.org/plugins/insert-headers-and-footers/) and run it once.
+* `fix-featured-images.code-snippets.json`: Import this file into [Code Snippets](https://wordpress.org/plugins/code-snippets/) and run it once.
 * `fix-featured-image-code-snippet.php`: Upload this file to your WordPress directory and use the WP-CLI command `wp eval-file` to execute it.
 * `fix-featured-image-code-snippet.zip`: Install this plugin, activate it, then deactivate and uninstall.
 
@@ -27,7 +27,7 @@ But if you've paid more attention to SEO than to excerpts, then you're in luck! 
 
 Choose only one of the following three ways to run this script:
 
-* `seo-to-excerpt.code-snippets.json`: Import this file into [WPCode](https://wordpress.org/plugins/insert-headers-and-footers/) and run it once.
+* `seo-to-excerpt.code-snippets.json`: Import this file into [Code Snippets](https://wordpress.org/plugins/code-snippets/) and run it once.
 * `seo-to-excerpt.php`: Upload this file to your WordPress root directory (the same location as `wp-load.php`) and run it with the WP-CLI command `wp eval-file`.
 * `seo-to-excerpt.zip`: Install this plugin, activate it, then deactivate and uninstall.
 
