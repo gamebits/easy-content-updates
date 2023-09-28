@@ -1,7 +1,7 @@
 <?php
 /**
 * Plugin Name: Fix Featured Images
-* Plugin URI: https://github.com/Automattic/newspack-custom-code/blob/trunk/scripts/wxr/fix-featured-image.php
+* Plugin URI: https://github.com/gamebits/easy-content-updates
 * Description: Grabs the first attached image for each post and sets it as the featured image.
 * Version: 1.0.0
 * Author: Newspack
