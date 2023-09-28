@@ -7,7 +7,7 @@ The contents of this repo are provided by me as an individual, not as a represen
 ## Featured Images
 Featured images were introduced in [WordPress 2.9](https://wordpress.org/news/2009/12/wordpress-2-9/), released December 2009. Many themes display the featured image at the top of the post, in category archives, on the homepage, in SEO snippets, and elsewhere. If your site predates WordPress 2.9, or your theme did not [support featured images](https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/#enabling-support-for-featured-image), then you likely have many posts without thumbnails — an absence that can be glaring.
 
-But if there are images attached to post, this script will find the first one and assign it as the featured image. Posts that already have featured images will be skipped.
+But if there are images attached to your posts, this script will find the first one and assign it as the featured image. Posts that already have featured images will be skipped.
 
 Choose only one of the following three ways to run this script:
 
