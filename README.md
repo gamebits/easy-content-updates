@@ -1,6 +1,6 @@
 # Easy Updates for Old Content 
 
-> Your site has been running on auto-pilot for years. Its theme has been retired, the site looks dated, and it’s impossible to navigate on mobile. You want to switch the theme... but new themes use excerpts, featured images, and blocks, none of which your old posts do. Never fear — with the tools and strategies outlined in this talk, you can quickly and easily give your old content everything it needs to look modern and slick. ([WordCamp Rochester 2023](https://rochester.wordcamp.org/2023/session/an-easy-update-for-old-content/)\)
+> Your WordPress site has been running on auto-pilot for years. Its theme has been retired, the site looks dated, and it’s impossible to navigate on mobile. You want to switch the theme... but new themes use excerpts, featured images, and blocks, none of which your old posts do. Never fear — with the tools and strategies outlined in this talk, you can quickly and easily give your old content everything it needs to look modern and slick. ([WordCamp Rochester 2023](https://rochester.wordcamp.org/2023/session/an-easy-update-for-old-content/)\)
 
 The contents of this repo are provided by me as an individual, not as a representative of Automattic. No guarantees, express or implied, are provided as to the use and consequences of this code. As always, make a backup first.
 
