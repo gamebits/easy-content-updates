@@ -4,6 +4,8 @@
 
 The contents of this repo are provided by me as an individual, not as a representative of Automattic. No guarantees, express or implied, are provided as to the use and consequences of this code. As always, make a backup first.
 
+A video of these tools being demoed is available on [WordPress.TV](https://wordpress.tv/2023/10/04/an-easy-update-for-old-content/).
+
 ## Featured Images
 Featured images were introduced in [WordPress 2.9](https://wordpress.org/news/2009/12/wordpress-2-9/), released December 2009. Many themes display the featured image at the top of the post, in category archives, on the homepage, in SEO snippets, and elsewhere. If your site predates WordPress 2.9, or your theme did not [support featured images](https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/#enabling-support-for-featured-image), then you likely have many posts without thumbnails — an absence that can be glaring.
 
