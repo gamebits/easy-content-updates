@@ -4,6 +4,8 @@
 
 The contents of this repo are provided by me as an individual, not as a representative of Automattic. No guarantees, express or implied, are provided as to the use and consequences of this code. As always, make a backup first.
 
+A video of these tools being demoed is available on [WordPress.TV](https://wordpress.tv/2023/10/04/an-easy-update-for-old-content/).
+
 ## Featured Images
 Featured images were introduced in [WordPress 2.9](https://wordpress.org/news/2009/12/wordpress-2-9/), released December 2009. Many themes display the featured image at the top of the post, in category archives, on the homepage, in SEO snippets, and elsewhere. If your site predates WordPress 2.9, or your theme did not [support featured images](https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/#enabling-support-for-featured-image), then you likely have many posts without thumbnails — an absence that can be glaring.
 
@@ -23,7 +25,7 @@ The [Add Featured Image Column](https://wordpress.org/plugins/add-featured-image
 
 Excerpts have been present since the first release of WordPress ([v0.7](https://wordpress.org/news/2003/05/wordpress-now-available/)) in May 2003. But not all themes have used excerpts in a meaningful way — and, in the absence of a manually crafted excerpt, one will be automatically generated from the beginning of the post body. As a result, many early bloggers overlooked this field entirely, creating technical debt that now needs to be addressed.
 
-But if you've paid more attention to SEO than to excerpts, then you're in luck! This script will take the SEO descriptions you've already written and will repurpose them for the theme excerpt. It defaults to using information from [Yoast](https://wordpress.org/plugins/wordpress-seo/) first; if none is present, it will look for [All In One SEO](https://wordpress.org/plugins/all-in-one-seo-pack/) (AIOSEO) next. Posts that already have excerpts will be skipped.
+But if you've paid more attention to SEO than to excerpts, then you're in luck! This script will take the SEO descriptions you've already written and will repurpose them for the theme excerpt. It defaults to using information from [Yoast](https://wordpress.org/plugins/wordpress-seo/) first; if none is present, it will look for [All In One SEO](https://wordpress.org/plugins/all-in-one-seo-pack/) (AIOSEO) next. (If you use a different SEO plugin, such as Rank Math, then you can [migrate its content to Yoast](https://yoast.com/help/how-to-migrate-from-rank-math-to-yoast-seo/) for the purpose of this script, then deactivate Yoast.) Posts that already have excerpts will be skipped.
 
 Choose only one of the following three ways to run this script:
 
