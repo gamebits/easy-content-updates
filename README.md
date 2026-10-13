@@ -40,7 +40,7 @@ While post excerpts and SEO descriptions serve slightly different purposes, you 
 ## Block Conversion
 The block editor, codenamed Gutenberg, was introduced in December 2018 with [WordPress 5.0](https://wordpress.org/news/2018/12/bebo/). Content written before this (or with the [Classic Editor](https://wordpress.org/plugins/classic-editor/) plugin) will display as one large classic block. The editor will provide the option to "Convert to Blocks" — but this must be done on a per-post basis.
 
-If you want to convert all your old content to blocks en masse, Newspack's [Custom Content Migrator](https://github.com/Automattic/newspack-content-converter/releases) automates this process to a degree. When run (ideally in Chrome), it will open each post one-by-one, convert it to blocks, and save it. See [that plugin's readme file](https://github.com/Automattic/newspack-content-converter/blob/master/README.md) for more details about operation and options.
+If you want to convert all your old content to blocks en masse, The [Newspack Content Converter](https://github.com/Automattic/newspack-content-converter/releases) automates this process to a degree. When run (ideally in Chrome), it will open each post one-by-one, convert it to blocks, and save it. See [that plugin's readme file](https://github.com/Automattic/newspack-content-converter/blob/master/README.md) for more details about operation and options.
 
 If you prefer to convert posts yourself, the 10up plugin [Convert to Blocks](https://wordpress.org/plugins/convert-to-blocks/) can provide some assistance with this process:
 
